@@ -1,0 +1,81 @@
+.App {
+   text-align: center;
+   height: 100vh;
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #258ea6;
+  
+}
+
+h1{color: #2920b2;}
+
+.CreateAccount {
+background-color: #519e8a;
+color: #fff;
+border: 2px solid #fff;
+width: 100%;
+margin-top: 1em;
+padding: 8px 0px;
+letter-spacing: 1px;
+margin-bottom: 0.25em;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.FirstName,
+.LastName,
+.Email,
+.Password {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.FirstName,
+.LastName {
+  width: 49%;
+}
+
+.FirstName {
+  margin-right: 1%;
+}
+
+.LastName {
+  margin-left: 1%;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
